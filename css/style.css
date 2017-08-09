@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 /*body { padding-top: 50px; }*/
 body{
-  font-family: 'Roboto', sans-serif;  
+  font-family: 'Julius Sans One';
 
 }
 .navbar{
@@ -73,16 +74,17 @@ canvas {
 	font-size: 1.5em;
 }*/
 .content{
-  font-size : 1em;
+  font-size : 1.2em;
   top:-50px;
-  text-align:left;
-  font-family: 'Roboto', sans-serif;  
+  color:#fff;
+  text-align:center;
+  font-family: 'Julius Sans One', sans-serif;
 }
 .content>h1{
   position: relative;
   padding-bottom: 50px;
-  /*text-decoration: underline;*/
-  font-size:3em;
+  text-decoration: bold;
+  font-size:3.5em;
 }
 #proj{
     margin-left: 50px;
@@ -268,5 +270,9 @@ ul {
   margin-right: 10px;
   margin-top: 5px;
 }
--webkit-transform: translateZ(0)
+.contact-us-info{
+  margin-top: 200px;
+  position: absolute;
+  left:200px;
+}
 /*canvas {position: absolute; top: 0}*/
