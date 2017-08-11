@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
-/*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 /*body { padding-top: 50px; }*/
 body{
@@ -212,7 +212,7 @@ i { position:relative;
   padding:8px 12px;
   font-family: sans-serif;
   border : 2px solid;
-  width:10%;
+  width:140px;
   align-self: center;
   /*margin:auto;*/
   color : #aaa;
@@ -225,14 +225,18 @@ i { position:relative;
   margin:auto;
   margin-bottom: 100px;
 }
+.about-member{
+
+}
 .about-member>img{
   border-radius: 10px 10px 0px 0px;
-  width : 100%;
+  width : 94%;
   height:290px;
 }
 .about-member>.desc-member{
   text-align: center;
-  padding-top:20px;
+  padding:20px 20px;
+  width:94%;
   background-color: #eee;
   padding-bottom: 20px;
   border-radius: 0px 0px 10px 10px;
@@ -276,3 +280,12 @@ ul {
   left:200px;
 }
 /*canvas {position: absolute; top: 0}*/
+.blog-page{
+  font-size:1.2em;
+  line-height: 2em;
+  font-family: 'Roboto', sans-serif;
+  padding : 0px 15%; 
+}
+.blog-page>i{
+  color : #aaa;
+}
