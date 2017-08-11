@@ -285,7 +285,5 @@ ul {
   line-height: 2em;
   font-family: 'Roboto', sans-serif;
   padding : 0px 15%; 
-}
-.blog-page>i{
-  color : #aaa;
+  margin-top:50px;
 }
