@@ -275,9 +275,11 @@ ul {
   margin-top: 5px;
 }
 .contact-us-info{
-  margin-top: 200px;
   position: absolute;
-  left:200px;
+  top:200px;
+  left:40%;
+  text-align:center;
+
 }
 /*canvas {position: absolute; top: 0}*/
 .blog-page{
@@ -286,4 +288,12 @@ ul {
   font-family: 'Roboto', sans-serif;
   padding : 0px 15%; 
   margin-top:50px;
+}
+.contact-us-info>p{
+  font-size: 2em;
+  text-align:center;
+}
+.contact-us-info>form>input{
+  margin:20px;
+  
 }
