@@ -15,8 +15,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="vendors/jquery.easings.min.js"></script>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <style>
+      .navbar{
+          position: fixed;
+          right:0;
+          left:0;
+        }
     </style>
-
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -44,20 +50,24 @@
 </nav>
 
 
-    <div class = "row">
-    <span class = "contact-us-info" style="font-family: 'Roboto', sans-serif;">
-      <p>Query?<br>Wanna talk?<br>Want to join us?</p>
+    <!-- <div class = "row"> -->
     
+    <span id = "contact-head"><b>CONTACT US</b></span>
+    <span class = "contact-us-info" style="font-family: 'Roboto', sans-serif;">
+      <!-- <p>Query?<br>Wanna talk?<br>Want to join us?</p>
+     -->
+    <span id = "contact-num">+91-7726846229</span><br>
+    <hr>
     <form method="POST" action="http://formspree.io/j.salil36@gmail.com">
-      <textarea type="email" name="email" size="30" line-height = "200px" placeholder="Your email"></textarea><br>
-      <!-- <input name="message" placeholder="Your message"></input><br> -->
-      <!-- <textarea placeholder="Describe yourself here..." rows="4" cols="50">
-
-      </textarea> -->
-      <br>
-      <textarea name = "message" placeholder="Describe yourself here..." rows="4" cols="50"></textarea><br>
-      <button type="submit">Send</button>
+      <textarea type="name" name="name" rows="1" cols="22" placeholder="First Name"></textarea>
+      <textarea type="name" name="name" rows="1" cols="22" placeholder="Last Name"></textarea><br> 
+      <textarea type="email" name="email" rows="1" cols="50" placeholder="Your email"></textarea><br>
+      <textarea name = "message" placeholder="Type you message here..." rows="4" cols="50"></textarea><br>
+      <input type="hidden" name="_next" value="thanks.html" />
+      <button class="btn btn-primary btn-lg" type="submit">Send</button>
     </form>
+    <hr>
+    <a href = "https://github.com/SforAiDl/"><img src = "img/GitHub_Logo.png"></a>
     </span>
     	<!-- <div class = "col-md-6 col-md-offset-3" style="height:350px;">
     		<div class = "animated slideInUp">
@@ -67,7 +77,7 @@
     	</div> -->
       <i class="fa fa-phone" aria-hidden="true"></i>
       
-    </div>
+    <!-- </div> -->
     <!-- <div id="map"></div> -->
 
 	

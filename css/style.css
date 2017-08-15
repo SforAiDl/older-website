@@ -13,6 +13,9 @@ body{
   padding-right: 20%;
   z-index: 2;
   margin-bottom: 0px;
+/*  position: fixed;
+  right:0;
+  left:0;*/
 }
 .navbar-default .navbar-nav > ul > li > a {
     color: #777777!important;
@@ -75,7 +78,7 @@ canvas {
 }*/
 .content{
   font-size : 1.2em;
-  top:-50px;
+  /*top:-50px;*/
   color:#fff;
   text-align:center;
   font-family: 'Julius Sans One', sans-serif;
@@ -276,10 +279,9 @@ ul {
 }
 .contact-us-info{
   position: absolute;
-  top:200px;
-  left:40%;
+  top:300px;
+  width: 100%;
   text-align:center;
-
 }
 /*canvas {position: absolute; top: 0}*/
 .blog-page{
@@ -289,11 +291,36 @@ ul {
   padding : 0px 15%; 
   margin-top:50px;
 }
+.contact-us-info>form{
+  padding:50px;
+}
 .contact-us-info>p{
   font-size: 2em;
   text-align:center;
 }
 .contact-us-info>form>input{
   margin:20px;
-  
+}
+textarea {
+  resize: none;
+  border-radius: 5px;
+  padding:7px;
+  margin : 10px;
+}
+#contact-head{
+  font-size:4em;
+  font-family: 'Julius Sans One';
+  background-color: rgb(98, 148, 229);
+  text-align:center!important;
+  position:fixed;
+  width:100%;
+  padding-bottom:75px;
+  padding-top: 125px;
+}
+#contact-num{
+  font-size:3em;
+  color:#666;
+}
+.contact-us-info>a>img{
+  height:100px;
 }
