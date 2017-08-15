@@ -324,3 +324,8 @@ textarea {
 .contact-us-info>a>img{
   height:100px;
 }
+#thanks-con{
+  font-size:3em;
+  top:100px;
+  position:relative;
+}
