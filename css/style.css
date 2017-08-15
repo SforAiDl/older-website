@@ -282,6 +282,7 @@ ul {
   top:300px;
   width: 100%;
   text-align:center;
+  z-index: -1;
 }
 /*canvas {position: absolute; top: 0}*/
 .blog-page{
@@ -323,6 +324,7 @@ textarea {
 }
 .contact-us-info>a>img{
   height:100px;
+  margin-bottom: 100px;
 }
 #thanks-con{
   font-size:3em;
