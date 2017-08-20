@@ -23,15 +23,31 @@
         .about-member{
             padding : 10px 0px;
         }*/
+        #phone-site{
+            display: none;
+        }
         table {
             margin-left: auto;
             margin-right: auto;
             border-spacing: 50px;
             border-collapse: separate;
         }
+        @media only screen and (max-device-width: 600px) {
+            #desktop-site{
+                display: none;
+
+            }
+            #phone-site{
+                display: block;
+            }
+        }
     </style>
 </head>
+<span id = "phone-site">
+    <p class="text-center">Mobile version of this page is Under construction. Please visit in a Desktop to view this page.<br> Go <a href = "index.html">Home</a></p> 
+</span>
 <body>
+<div id = "desktop-site">
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -111,4 +127,7 @@
                     
                   </tbody>
                 </table>
-    </div>    
+    </div>
+    </div>
+    </body>
+    </html> 
