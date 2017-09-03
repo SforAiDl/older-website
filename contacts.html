@@ -22,6 +22,23 @@
           right:0;
           left:0;
         }
+        .jumbotron {
+        background: #358CCE;
+        color: #FFF;
+        border-radius: 0px;
+        }
+        .jumbotron-sm { padding-top: 24px;
+        padding-bottom: 24px; }
+        .jumbotron small {
+        color: #FFF;
+        }
+        .h1 small {
+        font-size: 24px;
+        }
+        .con-form{
+          position:relative;
+          top:100px;
+        }
     </style>
 </head>
 <body>
@@ -48,15 +65,72 @@
     </div>
   </div>
 </nav>
-
-
+<div class="container con-form">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form method="POST" action="http://formspree.io/j.salil36@gmail.com">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="name" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message" style="width:97%;"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="hidden" name="_next" value="thanks.html" />
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form>
+            <legend><span class="glyphicon glyphicon-globe"></span>  Or Reach Us at</legend>
+            <address>
+                <abbr title="Phone">
+                    P:</abbr>
+                +91-7726846229  
+            </address>
+            <address>
+                <strong>Github - </strong>
+                <a href = "https://github.com/SforAiDl" target="_blank">@SforAiDl</a>
+            </address>
+            <address>
+                <strong>Email - </strong><br>
+                <a href="mailto:#">xyz@pqr.com</a>
+            </address>
+            </form>
+        </div>
+    </div>
+</div>
     <!-- <div class = "row"> -->
     
-    <span id = "contact-head"><b>CONTACT US</b></span>
-    <span class = "contact-us-info" style="font-family: 'Roboto', sans-serif;">
-      <!-- <p>Query?<br>Wanna talk?<br>Want to join us?</p>
-     -->
-    <span id = "contact-num">+91-7726846229</span><br>
+    <!-- <span id = "contact-head"><b>CONTACT US</b></span> -->
+    <!-- <span class = "contact-us-info" style="font-family: 'Roboto', sans-serif;"> -->
+      
+    <!-- <span id = "contact-num">+91-7726846229</span><br>
     <hr>
     <form method="POST" action="http://formspree.io/j.salil36@gmail.com">
       <textarea type="name" name="name" rows="1" cols="22" placeholder="First Name"></textarea>
@@ -68,14 +142,14 @@
     </form>
     <hr>
     <a href = "https://github.com/SforAiDl/"><img src = "img/GitHub_Logo.png"></a>
-    </span>
+    </span> -->
     	<!-- <div class = "col-md-6 col-md-offset-3" style="height:350px;">
     		<div class = "animated slideInUp">
 	    		<button class = "btn-join">Join Us</button>
 	    		<button class = "btn-hire">Hire Us</button>
     		</div>
     	</div> -->
-      <i class="fa fa-phone" aria-hidden="true"></i>
+      <!-- <i class="fa fa-phone" aria-hidden="true"></i> -->
       
     <!-- </div> -->
     <!-- <div id="map"></div> -->
